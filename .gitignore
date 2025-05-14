@@ -54,3 +54,15 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Server specific
+server/.env
+server/dist
+server/node_modules
+server/coverage
+
+# Client specific
+client/.env
+client/dist
+client/node_modules
+client/coverage
